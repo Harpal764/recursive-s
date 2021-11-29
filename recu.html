@@ -32,12 +32,12 @@
                 return  function (b2)
                  { 
                     return function(b3){
-                        return a+b2+b3
+                       let c =  a+b2+b3;
+                       let d = a+b2;
+                       return `${c} and ${d}`;
                     }  
                      
                 }
-                
-            }
             return a + b;
         }
         console.log(sum(1,2))
